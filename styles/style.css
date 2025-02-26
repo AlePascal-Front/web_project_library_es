@@ -1,0 +1,161 @@
+.page {
+  min-width: 68.75rem;
+  max-width: 100vw;
+  margin: auto;
+  font-family: "Arial", sans-serif;
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 45rem;
+  max-height: 40.35%;
+  padding: 1.875rem 5rem 2.5rem;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  width: 3.625rem;
+  height: 5rem;
+}
+
+.nav__links {
+  margin: 0.5rem 0 0;
+  list-style-type: none;
+  display: flex;
+  column-gap: 1.25rem;
+  padding: 0;
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 0.938rem;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__title {
+  max-width: 39.688rem;
+  font-size: 3.875rem;
+  line-height: 4.75rem;
+  font-weight: 500;
+}
+
+.header__description {
+  max-width: 32.188rem;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  margin-bottom: 0;
+  margin-top: 2rem;
+}
+
+.header__image {
+  max-width: 39.75rem;
+}
+
+.header__footer {
+  margin-top: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  box-sizing: border-box;
+}
+
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.header__address {
+  margin: 0;
+  color: #838383;
+}
+
+.staff {
+  background-image: url(../images/staff_picks_background.jpg);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  height: 75rem;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.staff__title {
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding-top: 4.375rem;
+}
+
+.staff__subtitle {
+  text-align: center;
+  color: #fff;
+}
+
+.staff__subtitle_margin_bottom {
+  margin-bottom: 4.25rem;
+}
+
+.staff__cards {
+  list-style-type: none;
+  max-width: 47.5rem;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 2.5rem;
+  justify-content: space-between;
+  padding-left: 0;
+  align-items: center;
+}
+
+.card {
+  width: 47.37%;
+  height: 26.25rem;
+  background-color: #fff;
+  border-radius: 2%;
+  display: flex;
+}
+
+.card__content {
+  padding: 1.25rem 2.188rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.card__title {
+  line-height: 1.4;
+  font-weight: 700;
+}
+
+.card__text {
+  font-size: 1rem;
+}
+
+.card__text_margin_top {
+  margin-top: 0.1rem;
+}
+
+.card__footer {
+  margin-top: auto;
+  font-size: 0.875rem;
+  color: #d3d3d3;
+}
