@@ -164,10 +164,7 @@
 .card__text {
   font-size: 16px;
   line-height: 24px;
-  margin-top: 20px;
-  margin-left: 0;
-  margin-right: 0;
-  margin-bottom: 0;
+  margin: 20px 0 0;
 }
 
 .card__text_margin_top {
