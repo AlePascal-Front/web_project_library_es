@@ -11,9 +11,9 @@
   display: flex;
   flex-direction: column;
   height: 100vh;
-  min-height: 45rem;
-  max-height: 40.35%;
-  padding: 1.875rem 5rem 2.5rem;
+  min-height: 720px;
+  max-height: 800px;
+  padding: 30px 80px 40px;
   position: relative;
   box-sizing: border-box;
 }
@@ -94,20 +94,27 @@
   background-repeat: repeat;
   background-size: cover;
   height: 1200px;
-  padding-top: 68px;
-  padding-bottom: 0;
+  padding-top: 100px;
+  padding-bottom: 140px;
 }
 
 .staff__title {
   text-align: center;
   color: #fff;
-  margin: 0;
+  margin-bottom: 24px;
   padding-top: 70px;
+  font-size: 44px;
+  line-height: 52px;
+  font-weight: 400;
 }
 
 .staff__subtitle {
   text-align: center;
   color: #fff;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  margin-bottom: 0;
 }
 
 .staff__subtitle_margin_bottom {
@@ -117,11 +124,12 @@
 .staff__cards {
   list-style-type: none;
   max-width: 760px;
-  margin: auto;
+  margin-top: 68px;
+  margin-bottom: 0;
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
-  justify-content: space-between;
+  justify-content: center;
   padding-left: 0;
   align-items: center;
 }
@@ -129,25 +137,36 @@
 .card {
   width: 360px;
   height: 420px;
+  padding: 32px 40px 20px 32px;
+  box-sizing: border-box;
   background-color: #fff;
   display: flex;
+  border-radius: 6px;
 }
 
 .card__content {
   padding: 1.25rem 2.188rem;
   display: flex;
+  height: 100%;
   flex-direction: column;
   justify-content: space-between;
   flex-grow: 1;
 }
 
 .card__title {
-  line-height: 1.4;
+  line-height: 30px;
+  font-size: 20px;
   font-weight: 700;
+  margin: 0;
 }
 
 .card__text {
   font-size: 16px;
+  line-height: 24px;
+  margin-top: 20px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
 }
 
 .card__text_margin_top {
@@ -157,5 +176,9 @@
 .card__footer {
   margin-top: auto;
   font-size: 14px;
-  color: #d3d3d3;
+  color: #838383;
+  line-height: 20px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
