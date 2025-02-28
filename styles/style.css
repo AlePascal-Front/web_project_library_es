@@ -165,11 +165,7 @@
   font-size: 16px;
   line-height: 24px;
   margin: 0;
-  margin-right: 20px;
-}
-
-.card__text_margin_top {
-  margin-top: 1.6px;
+  margin-top: auto;
 }
 
 .card__footer {
