@@ -365,9 +365,7 @@
 }
 
 .footer__column_content_hours {
-  width: auto;
-  height: auto;
-  margin-left: 0;
+  margin: auto 0;
 }
 
 .footer__column_content_social {
