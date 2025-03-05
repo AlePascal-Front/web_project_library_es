@@ -330,7 +330,7 @@
 }
 
 .step {
-  width: 220px;
+  flex-basis: 220px;
 }
 
 .step__title {
@@ -354,6 +354,7 @@
   box-sizing: border-box;
   position: relative;
   background-color: #1f1f1f;
+  color: white;
   padding: 60px 80px;
 }
 
@@ -361,18 +362,19 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  gap: 80px;
 }
 
 .footer__column_content_hours {
   width: auto;
   height: auto;
+  margin-left: 0;
 }
 
 .footer__column_content_social {
   position: absolute;
   right: 80px;
   top: 60px;
+  margin-left: 80px;
 }
 
 .footer__logo {
@@ -403,16 +405,19 @@
 .footer__column-link {
   color: white;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
 }
 
 .footer__social-icon {
-  margin-right: 10px;
   width: 16px;
   height: 16px;
 }
 
 .footer__copyright {
   color: white;
-  bottom: -60px;
+  bottom: 60px;
   left: 80px;
+  margin-top: 100px;
 }
