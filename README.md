@@ -1,9 +1,38 @@
 # Proyecto 3: Biblioteca Triple Peaks
 
-La página web de la Biblioteca Triple Peaks es el tercer proyecto en el programa de Desarrollo web de TripleTen. Fue creado utilizando HTML y CSS, con base en un brief de diseño.
+The Triple Peaks Library website is the third project in the TripleTen Web Development Program. It was created using HTML and CSS, based on a provided design brief.
 
-## Características del proyecto
+# Project Features
 
-- HTML5 semántico
-- Flexbox
-- Posicionamiento
+* Semantic HTML5
+
+* Flexbox layout
+
+* Positioning techniques
+
+# Sections Included
+
+# 🧭 Navigation Bar
+* Logo and navigation links to each main section
+
+# 📚 Staff Picks
+* Favorite books curated by the library staff
+
+* Each book includes a title, description, and author(s)
+
+# 🌌 Upcoming Events
+* Highlighted event: In Honor of Joan Feynman: Women in Astrophysics
+
+* Detailed event information with images of key women scientists
+
+# 💳 Membership Steps
+* Clear 4-step process to become a member
+
+* Illustrated with icons and descriptive text
+
+# 📍 Footer
+* Library address and hours
+
+* Social media links
+
+* Copyright
