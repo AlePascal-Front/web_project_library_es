@@ -36,3 +36,6 @@ The Triple Peaks Library website is the third project in the TripleTen Web Devel
 * Social media links
 
 * Copyright
+
+# :computer: Github Pages Deploy
+Visit the following url: https://alepascal-front.github.io/web_project_library_es/
